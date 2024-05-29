@@ -9,8 +9,8 @@
 
 ### Depoyu Klonlayın
 ```sh
-git clone https://github.com/your-repository/OrderManagement.git
-cd OrderManagement
+git clone git@github.com:atayikilmaz/order-management-service.git
+cd order-management-service
 ```
 
 ### `appsettings.json` Dosyasında Veritabanı İçin Özel Bir ConnectionString İsteğe Bağlı Olarak Tanımlanabilir
