@@ -24,6 +24,7 @@ cd order-management-service
 
 ### Veritabanında Tabloları Oluşturmak İçin Migration
 ```sh
+cd order-management-service
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
