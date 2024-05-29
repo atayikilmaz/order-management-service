@@ -29,13 +29,16 @@ dotnet ef migrations add Initial
 dotnet ef database update
 ```
 
-### Projeyi Derleyin ve Çalıştırın
+### Projeyi Çalıştırın
 ```sh
-dotnet build
-dotnet run
+dotnet watch
 ```
 
 Swagger UI otomatik olarak açılmalıdır.
+Açılmaz ise aşağıdaki linkleri deneyebilirsiniz.
+
+[Localhost:7720](https://localhost:7270/swagger/index.html)
+[Localhost:5115](https://localhost:5115/swagger/index.html)
 
 ## Kullanım
 
