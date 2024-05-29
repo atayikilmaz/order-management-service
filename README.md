@@ -7,7 +7,7 @@
 
 ## Kurulum
 
-### Depoyu Klonlayın
+### Repoyu Klonlayın
 ```sh
 git clone git@github.com:atayikilmaz/order-management-service.git
 cd order-management-service
