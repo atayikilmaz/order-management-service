@@ -23,19 +23,19 @@ public class OrderManagementDbContext : DbContext
             .HasOne(p => p.Company)
             .WithMany(c => c.Products)
             .HasForeignKey(p => p.CompanyId)
-            .OnDelete(DeleteBehavior.Restrict); // Add this line to prevent cascade delete
+            .OnDelete(DeleteBehavior.Restrict); 
 
         modelBuilder.Entity<Order>()
             .HasOne(o => o.Company)
             .WithMany()
             .HasForeignKey(o => o.CompanyId)
-            .OnDelete(DeleteBehavior.Restrict); // Add this line to prevent cascade delete
+            .OnDelete(DeleteBehavior.Restrict); 
 
         modelBuilder.Entity<Order>()
             .HasOne(o => o.Product)
             .WithMany()
             .HasForeignKey(o => o.ProductId)
-            .OnDelete(DeleteBehavior.Restrict); // Add this line to prevent cascade delete
+            .OnDelete(DeleteBehavior.Restrict); 
 
         modelBuilder.Entity<Product>()
             .Property(p => p.Price)
